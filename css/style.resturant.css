@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    background-color: #F1F8FF;
+}
+#buttons{
+    color: black;
+    /* background-color: bisque; */
+}
+#navbars1{
+
+    position: relative;
+    z-index: 11111;
+}
+
+
+.icon1{
+    color: darkorange;
+
+}
+.nav1{
+    color: darkorange;
+    text-decoration: none;
+    font-size: large;
+}
+.nav1:hover{
+    color: darkorange;
+}
+#mm{
+    color:darkorange ;
+}
+#navbarDropdown{
+    color:darkorange ;
+    
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.home{
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg) fixed center ;
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+}
+.imgs1{
+    width: 500px;
+    height: 500px;
+   margin-left: 100px;
+animation: float 50s linear infinite;
+cursor: pointer;
+
+}
+@keyframes float{
+   
+   100%{
+    transform: rotate(360deg);
+   }
+
+}
+.ff{
+    padding-left: 50px;
+}
+.pp{
+    color: white;
+    padding-top: 100px;
+}
+.mm{
+    color: white;
+}
+
+.btn1 a{
+    color: white;
+    text-decoration: none;
+}
+.cards{
+    padding: 0 20px;
+    
+}
+
+.fa-user{
+    font-size: 3em;
+    margin: 10px 0;
+}
+.fa-utensils{
+    font-size: 3em;
+    margin: 10px 0;
+}
+.fa-cart-plus{
+    font-size: 3em;
+    margin: 10px 0;
+}
+.fa-headset{
+    font-size: 3em;
+    margin: 10px 0;
+}
+.mo{
+   margin: 0 20px;
+}
+.foto1{
+   margin-left: 300px;
+   padding-top: 50px;
+}
+.foto2{
+   padding-top: 130px;
+   width: 35%;
+
+}
+.foto3{
+   margin-left: 400px;
+   padding-top: 30px;
+   width: 35%;
+}
+.foto4{
+   padding-top: 30px;
+
+}
+.hh{
+    font-family: 'Pacifico', cursive;
+    position: relative;
+}
+.hh::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    top: 50%;
+    left: 530px;
+    margin-top: 5px;
+    background: darkorange;
+}
+.hh::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    top: 50%;
+    left: 720px;
+    margin-top: 5px;
+    background: darkorange;
+}
+.text1{
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+}
+.icon3{
+    font-size: 35px;
+}
+.text3{
+    width: 800px;
+}
+.hh1{
+    padding-left: 5px;
+    font-size: 50px;
+}
+.divs{
+    padding-left: 15px;
+}
+ .divs .mm1{
+    margin-bottom: 10px;
+}
+.hh2{
+    padding-left: 5px;
+    font-size: 50px;
+}
+.divs2{
+    padding-left: 15px;
+}
+.btn2{
+     margin: auto;
+}
+.pp2{
+    display: none;
+}
+.btns{
+    margin: -200px 50px;
+}
+
+.section3{
+    margin-top: 500px;
+}
+.nn{
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    font-size: 25px;
+}
+.nn::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    top: 50%;
+    left: 530px;
+    margin-top: 5px;
+    background: darkorange;
+}
+.nn::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    top: 50%;
+    left: 720px;
+    margin-top: 5px;
+    background: darkorange;
+    
+}
+.uls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+.links1{
+padding: 0 50px;
+}
+.links2{
+    padding-right: 90px;
+}
+.ss img{
+    transition: all .3s linear;
+}
+.ss img:hover{
+    transform: scale(1.2);
+}
+
+.ss div  p{
+    opacity: 0.7;
+}
+
+.video{
+    position: relative;
+    background:  url(../img/video.jpg);
+    height: 100%;
+    min-height: 500px;
+    
+}
+.video .btn-play{
+    position: absolute;
+    z-index: 3;
+    top: 40%;
+    left: 50%;
+    border-radius: 50%;
+    background-color: rgb(230, 172, 26);
+    width: 17%;
+    height: 17%;
+    border: none;
+    outline: none;
+    box-sizing: content-box;
+    animation: mohands 2000ms ease-out infinite;
+
+}
+@keyframes mohands {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 2;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+}
+.icons4{
+    font-size: 30px;
+}
+.bt{
+    min-height: 400px;
+}
+.nn1{
+    font-family: 'Pacifico', cursive;
+   font-size: 25px;
+   text-align: center;
+   position: relative;
+   padding: 20px 50px;
+}
+.nn1::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    left: 200px;
+    margin-top: 15px;
+    background: darkorange;
+    
+}
+.texts1{
+    padding-top: 40px;
+    padding-right: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 100px;
+}
+.form-floating{
+    padding-left: 50px;
+}
+.names{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+.names:hover{
+    box-shadow: 0 0 4px 2px darkgoldenrod;
+
+}
+.emails{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+
+}
+.emails:hover{
+    box-shadow: 0 0 4px 2px darkgoldenrod;
+
+}
+
+.dates{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+
+}
+.dates:hover{
+    box-shadow: 0 0 4px 2px darkgoldenrod;
+
+}
+.select1{
+    padding: 10px 70px;
+    border: none;
+    outline: none;
+
+}
+.select1:hover{
+    box-shadow: 0 0 4px 2px darkgoldenrod;
+
+}
+#form{
+    border: none;
+    outline: none;
+}
+#forms:hover{
+    box-shadow: 0 0 4px 2px darkgoldenrod;
+
+}
+.btns1{
+
+    width: 70%;
+    margin-left: 80px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.btns1 a{
+    text-decoration: none;
+    color: white;
+}
+.xx{
+    font-family: 'Pacifico', cursive;
+    position: relative;
+}
+.xx::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    left: 510px;
+    margin-top: 12px;
+    background: darkorange;
+}
+.xx::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    left: 56%;
+    margin-top: 12px;
+    background: darkorange;
+}
+.texts2{
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 35px;
+}
+.imgs2{
+    width: 85%;
+    border-radius: 50%;
+    text-align: center;
+}
+.card1,.card2,.card3,.card4{
+    padding: 30px 15px;
+    box-shadow: 0 0 2px 3px rgb(218, 225, 225);
+}
+.spans1{
+    opacity: .5;
+}
+.icons7 a i{
+ color: white;
+ font-size: 30px;
+ 
+}
+.icons7 a{
+ border-radius: 20%;
+ background-color: darkorange;
+ margin: 0 15px;
+ transition: all .3s ease-in-out;
+ opacity: 0.5;
+
+}
+.icons7 a:hover{
+    opacity: 1;
+}
+
+
+.sliders{
+    border: 1px solid #dee2e6;
+}
+.sliders img{
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.fa-solid{
+    color: darkorange;
+    font-size: 50px;
+}
+
+.hs{
+    font-family: 'Pacifico', cursive;
+     position: relative;
+}
+.hs::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 4px;
+    left: 40%;
+    margin-top: 20px;
+    background: darkorange;
+}
+.divs3{
+    display: flex;
+    flex-direction: column;
+    
+}
+.divs3 a{
+    text-decoration: none;
+    padding-top: 10px;
+    color: white;
+    transition: all .5s linear;
+}
+.divs3 a:hover{
+    color: white;
+    transform: translate(15px);
+}
+
+.divs3 span{
+    padding-top: 10px;
+}
+.h6{
+    color: white;
+    font-family: "Heebo",sans-serif;
+}
+.h6 i{
+  font-size: 15px;
+  color: white;
+}
+.divs4{
+    margin-top: 10px; 
+}
+.divs4 i{
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all .4s linear;
+}
+.divs4 a i:hover{
+    background-color: white;
+    color: darkorange;
+}
+.h7{
+    color: white;
+    font-size: 20px;
+    font-family: "Heebo",sans-serif;
+    padding-top: 8px;
+}
+.sp1{
+    color: white;
+}
+.hs1{
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    
+}
+.hs1::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 4px;
+    left: 55%;
+    margin-top: 20px;
+    background: darkorange;
+}
+.forms1{
+    position: relative;
+}
+.btns2{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -50px;
+    padding: 10px;
+   
+}
+
+.up{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: all .3s linear;
+    display: none;
+}
+.up:hover{
+    transform: translateY(-10px);
+}
+.show{
+    display: block;
+}
